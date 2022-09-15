@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "note-it",
+  "description": "Accessible note taking application.",
+  "version": "0.1",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png",
+      "128": "assets/icon128.png"
+    },
+    "default_title": "Note it"
+  }
+}
