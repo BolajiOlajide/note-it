@@ -38,7 +38,7 @@
   --white: #FFF;
 
   --page-width: 18.75rem;
-  --page-height: 26.25rem;
+  --page-height: 28.125rem;
 
   --container-padding: 0.75rem;
 }
@@ -50,6 +50,8 @@
 
 body {
   margin: 0;
+  box-sizing: border-box;
+  font-family: 'Euclid Circular A', sans-serif;
 }
 
 .divider {
@@ -64,10 +66,8 @@ body {
   height: var(--page-height);
   background: var(--background-color);
   color: var(--text-color);
-}
-
-.container {
-  height: 100%;
-  width: 100%;
   padding: var(--container-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
