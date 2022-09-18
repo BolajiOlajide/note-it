@@ -10,9 +10,9 @@ import Note from './pages/Note.vue'
 import NewNote from './pages/NewNote.vue'
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/note', component: NewNote },
-  { path: '/:id', component: Note },
+  { path: '/', component: Home, name: 'home' },
+  { path: '/note', component: NewNote, name: 'new-note' },
+  { path: '/note/:id', component: Note, name: 'note' },
 ]
 
 const router = createRouter({

@@ -40,6 +40,9 @@
   --page-width: 18.75rem;
   --page-height: 28.125rem;
 
+  --scrollbar-thumb-color: #f1f1f1;
+  --scrollbar-track-color: #888;
+
   --container-padding: 0.75rem;
 }
 
@@ -70,4 +73,26 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+  border-radius: 0.625rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color);
+  border-radius: 0.625rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c8c8c8;
 }

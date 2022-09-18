@@ -4,7 +4,7 @@ export interface Note {
   title: string;
   content: string;
   faviconUrl: string;
-  updatedAt: string;
+  updatedAt: number;
 }
 
 export type NewNote = Omit<Note, 'id'>
