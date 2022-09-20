@@ -22,7 +22,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <Header />
+  <Header title="Untitled is a common category of something something something" />
   <textarea placeholder="Untitled" class="note__content" ref="textAreaEl" :value="content"></textarea>
 </template>
 
