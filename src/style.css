@@ -96,3 +96,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #c8c8c8;
 }
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
