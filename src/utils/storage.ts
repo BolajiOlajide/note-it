@@ -7,20 +7,20 @@
  */
  export const getItem = async <T>(key: string): Promise<T | null> => {
   if (chrome.storage) {
-    const data = await chrome.storage.local.get(key);
+    const data = await chrome.storage.local.get(key)
     if (data && data[key]) {
-      return Promise.resolve(data[key] as T);
+      return Promise.resolve(data[key] as T)
     }
 
     return null
   }
 
-  const data = localStorage.getItem(key);
+  const data = localStorage.getItem(key)
   if (data) {
-    return Promise.resolve(JSON.parse(data) as T);
+    return Promise.resolve(JSON.parse(data) as T)
   }
 
-  return Promise.resolve(null);
+  return Promise.resolve(null)
 }
 
 /**
@@ -34,9 +34,9 @@
  */
 export const saveItem = async <T>(key: string, value: T): Promise<void> => {
   if (chrome.storage) {
-    await chrome.storage.local.set({ key: value});
-    return;
+    await chrome.storage.local.set({ key: value})
+    return
   }
 
-  localStorage.setItem(key, JSON.stringify(value));
+  localStorage.setItem(key, JSON.stringify(value))
 }

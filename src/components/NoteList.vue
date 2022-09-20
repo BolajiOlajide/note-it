@@ -1,9 +1,9 @@
 <script lang="ts">
-import { defineComponent, PropType } from "vue";
+import { defineComponent, PropType } from "vue"
 
-import type { Note } from "../interface.d";
+import type { Note } from "../interface.d"
 
-import { calculateNoteDate } from "../utils/date";
+import { calculateNoteDate } from "../utils/date"
 
 export default defineComponent({
   props: {
@@ -16,9 +16,9 @@ export default defineComponent({
     return {
       notes: props.notes,
       calculateNoteDate,
-    };
+    }
   },
-});
+})
 </script>
 
 <template>

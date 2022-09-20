@@ -1,14 +1,14 @@
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent } from "vue"
 
-import Header from "../components/Header.vue";
+import Header from "../components/Header.vue"
 
 export default defineComponent({
   setup() {
     return {
       content: '# ',
       title: ''
-    };
+    }
   },
   components: {
     Header,
@@ -16,13 +16,13 @@ export default defineComponent({
 
   mounted() {
     const textAreaEl = this.$refs.textAreaEl as HTMLTextAreaElement
-    textAreaEl.focus();
+    textAreaEl.focus()
   },
-});
+})
 </script>
 
 <template>
-  <Header title="Untitled is a common category of something something something" />
+  <Header />
   <textarea placeholder="Untitled" class="note__content" ref="textAreaEl" :value="content"></textarea>
 </template>
 

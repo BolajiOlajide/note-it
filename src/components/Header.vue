@@ -1,6 +1,6 @@
 <script lang="ts">
-import { defineComponent, ref, Ref } from "vue";
-import { useRoute } from "vue-router";
+import { defineComponent, ref, Ref } from "vue"
+import { useRoute } from "vue-router"
 
 export default defineComponent({
   props: {
@@ -10,15 +10,15 @@ export default defineComponent({
     },
   },
   setup(props) {
-    const route = useRoute();
-    const isHomePage: Ref<boolean> = ref(route.path === "/");
+    const route = useRoute()
+    const isHomePage: Ref<boolean> = ref(route.path === "/")
 
     return {
       title: props.title || "",
       isHomePage,
-    };
+    }
   },
-});
+})
 </script>
 
 <template>

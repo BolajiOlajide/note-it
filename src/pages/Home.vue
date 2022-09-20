@@ -4,15 +4,15 @@ import { defineComponent, ref } from 'vue'
 import type { Note } from '../interface.d'
 
 import Header from '../components/Header.vue'
-import EmptyNoteListVue from '../components/EmptyNoteList.vue';
-import NoteListVue from '../components/NoteList.vue';
-import store from '../data.json';
+import EmptyNoteListVue from '../components/EmptyNoteList.vue'
+import NoteListVue from '../components/NoteList.vue'
+import store from '../data.json'
 
 export default defineComponent({
   setup() {
-    const notes = ref<Note[]>(store.notes);
+    const notes = ref<Note[]>(store.notes)
 
-    return { notes };
+    return { notes }
   },
   components: {
     EmptyNoteListVue,
