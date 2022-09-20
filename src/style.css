@@ -33,22 +33,18 @@
 :root {
   --background-color: #1E1E1E;
   --text-color: #FFF;
+  --markdown-text-color: #BCBCBC;
 
   --black: #000;
   --white: #FFF;
 
-  --page-width: 18.75rem;
-  --page-height: 28.125rem;
+  --page-width: 20rem;
+  --page-height: 30rem;
 
   --scrollbar-thumb-color: #f1f1f1;
   --scrollbar-track-color: #888;
 
   --container-padding: 0.75rem;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: 'Euclid Circular A', sans-serif;
 }
 
 body {
@@ -99,5 +95,17 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--text-color);
+}
+
+pre {
+  background: #dbdbdb;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  color: var(--background-color);
+  margin-right: 0.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
   color: var(--text-color);
 }

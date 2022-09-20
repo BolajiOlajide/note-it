@@ -39,6 +39,7 @@ export default defineComponent({
   border: 0;
   line-height: 1.25rem;
   resize: none;
+  letter-spacing: 0.0625rem;
 }
 
 .note__content::placeholder {
