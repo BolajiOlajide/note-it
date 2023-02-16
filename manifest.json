@@ -13,6 +13,7 @@
       "48": "icon48.png",
       "128": "icon128.png"
     },
-    "default_title": "Note it"
+    "default_title": "Note it",
+    "default_popup": "index.html"
   }
 }

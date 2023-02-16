@@ -32,11 +32,13 @@
  *
  * @returns Promise<void>
  */
-export const saveItem = async <T>(key: string, value: T): Promise<void> => {
-  if (chrome.storage) {
-    await chrome.storage.local.set({ key: value})
-    return
+export const saveItem = async <T>(key: string, value: T): Promise<void> => new Promise((resolve, reject) => {
+  console.log(key, value)
+  if (chrome.storage?.local) {
+    return resolve(chrome.storage.local.set({ key: value}))
   }
 
-  localStorage.setItem(key, JSON.stringify(value))
-}
+  return resolve(localStorage.setItem(key, JSON.stringify(value)))
+})
+
+// export const deleteIte

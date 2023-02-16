@@ -22,7 +22,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <ul class="note__list_container">
+  <TransitionGroup class="note__list_container" tag="ul" name="slide">
     <li v-for="note in notes" :key="note.id" class="note__node">
       <div class="note__details">
         <router-link
@@ -37,7 +37,7 @@ export default defineComponent({
 
       <img :src="note.faviconUrl" alt="" class="note__icon" />
     </li>
-  </ul>
+  </TransitionGroup>
 </template>
 
 <style scoped>
