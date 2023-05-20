@@ -1,44 +1,40 @@
 <script lang="ts">
-import { defineComponent } from "vue";
-import { nanoid } from 'nanoid'
-import debounce from 'lodash.debounce'
+import { ref, onMounted } from "vue";
+import { nanoid } from "nanoid";
+import debounce from "lodash.debounce";
 
-import { generateNoteID } from '../utils/id'
+import { generateNoteID } from "../utils/id";
 import Header from "../components/Header.vue";
 
-export default defineComponent({
+export default {
   setup() {
-    const noteID = generateNoteID()
+    const noteID = generateNoteID();
+    const textAreaEl = ref<null | HTMLTextAreaElement>(null);
+
+    const saveContent = (e: Event) => {
+      console.log(e.target, "<=====");
+    };
+
+    onMounted(() => {
+      textAreaEl.value?.focus();
+    });
     return {
+      textAreaEl,
+      saveContent,
       content: "# ",
       title: "",
-      noteID
+      noteID,
     };
   },
   components: {
     Header,
   },
-  mounted() {
-    const textAreaEl = this.$refs.textAreaEl as HTMLTextAreaElement;
-    textAreaEl.focus();
-  },
-  methods: {
-    saveContent: (e: Event) => {
-      console.log(e.target, '<=====')
-    }
-  },
-});
+};
 </script>
 
 <template>
   <Header :title="title" />
-  <textarea
-    placeholder="Untitled"
-    class="note__content"
-    ref="textAreaEl"
-    :value="content"
-    @change="saveContent"
-  />
+  <textarea placeholder="Untitled" class="note__content" ref="textAreaEl" :value="content" @change="saveContent" />
 </template>
 
 <style scoped>

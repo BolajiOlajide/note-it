@@ -1,42 +1,42 @@
 @font-face {
-  font-family: 'Euclid Circular A';
+  font-family: "Euclid Circular A";
   font-style: bold;
   font-weight: 700;
   font-display: swap;
-  src: url('../assets/Euclid\ Circular\ A\ Bold.ttf') format('truetype');
+  src: url("../assets/Euclid\ Circular\ A\ Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Euclid Circular A';
+  font-family: "Euclid Circular A";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('../assets/Euclid\ Circular\ A\ Medium.ttf') format('truetype');
+  src: url("../assets/Euclid\ Circular\ A\ Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Euclid Circular A';
+  font-family: "Euclid Circular A";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../assets/Euclid\ Circular\ A\ Regular.ttf') format('truetype');
+  src: url("../assets/Euclid\ Circular\ A\ Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Euclid Circular A';
+  font-family: "Euclid Circular A";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url('../assets/Euclid\ Circular\ A\ Light.ttf') format('truetype');
+  src: url("../assets/Euclid\ Circular\ A\ Light.ttf") format("truetype");
 }
 
 :root {
-  --background-color: #1E1E1E;
-  --text-color: #FFF;
-  --markdown-text-color: #BCBCBC;
+  --background-color: #1e1e1e;
+  --text-color: #fff;
+  --markdown-text-color: #bcbcbc;
 
   --black: #000;
-  --white: #FFF;
+  --white: #fff;
 
   --page-width: 20rem;
   --page-height: 30rem;
@@ -50,7 +50,7 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Euclid Circular A', sans-serif;
+  font-family: "Euclid Circular A", sans-serif;
 }
 
 .divider {
@@ -60,7 +60,16 @@ body {
   margin-right: calc(-1 * var(--container-padding));
 }
 
+body {
+  position: relative;
+  width: 100vw;
+}
+
 #app {
+  z-index: 9999;
+  position: absolute;
+  right: 20px;
+  top: 20px;
   width: var(--page-width);
   height: var(--page-height);
   background: var(--background-color);
@@ -71,6 +80,11 @@ body {
   justify-content: flex-start;
 }
 
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 0.5rem;
@@ -106,6 +120,11 @@ pre {
   margin-right: 0.5rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--text-color);
 }
