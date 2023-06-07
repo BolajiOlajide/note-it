@@ -1,8 +1,7 @@
 <script lang="ts">
 import { ref, onMounted } from "vue";
-import { nanoid } from "nanoid";
 import debounce from "lodash.debounce";
-
+import store from "../data.json";
 import { generateNoteID } from "../utils/id";
 import Header from "../components/Header.vue";
 
@@ -10,19 +9,40 @@ export default {
   setup() {
     const noteID = generateNoteID();
     const textAreaEl = ref<null | HTMLTextAreaElement>(null);
+    const title = ref("");
+    const content = ref("# ");
+    const timeout = ref<undefined | number>(undefined);
 
     const saveContent = (e: Event) => {
-      console.log(e.target, "<=====");
+      clearTimeout(timeout.value);
+      timeout.value = setTimeout(() => {
+        content.value = e?.target?.value
+        submitNote()
+      }, 500);
     };
+
+    const submitNote = () => {
+      const note = {
+        "id": noteID,
+        "url": window.location.href,
+        "title": "Something fresh!",
+        "content": content.value,
+        "updatedAt": Date.now(),
+        "faviconUrl": `${window.location.origin}/favicon.ico`
+      }
+      store.notes.push(note);
+      console.log(note)
+    }
 
     onMounted(() => {
       textAreaEl.value?.focus();
     });
+
     return {
       textAreaEl,
       saveContent,
-      content: "# ",
-      title: "",
+      content,
+      title,
       noteID,
     };
   },
@@ -34,7 +54,7 @@ export default {
 
 <template>
   <Header :title="title" />
-  <textarea placeholder="Untitled" class="note__content" ref="textAreaEl" :value="content" @change="saveContent" />
+  <textarea placeholder="Untitled" class="note__content" ref="textAreaEl" :value="content" @input="saveContent" />
 </template>
 
 <style scoped>

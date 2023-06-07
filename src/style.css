@@ -44,7 +44,7 @@
   --scrollbar-thumb-color: #f1f1f1;
   --scrollbar-track-color: #888;
 
-  --container-padding: 0.75rem;
+  --container-padding: 1rem;
 }
 
 body {
@@ -127,4 +127,5 @@ h4,
 h5,
 h6 {
   color: var(--text-color);
+  font-family: inherit;
 }
