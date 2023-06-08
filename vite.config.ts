@@ -6,5 +6,8 @@ import manifest from './manifest.json'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), crx({ manifest }),]
+  plugins: [vue(), crx({ manifest }),],
+  server:{
+    port: 8080
+  }
 })
