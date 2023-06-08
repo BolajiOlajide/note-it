@@ -70,5 +70,6 @@ export default defineComponent({
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.3rem;
+  margin: 0;
 }
 </style>

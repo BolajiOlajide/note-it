@@ -1,5 +1,140 @@
 {
   "notes": [
-
+    {
+      "id": "1",
+      "url": "https://google.com",
+      "title": "Something fresh!",
+      "content": "hey yooo",
+      "updatedAt": 1663472330231,
+      "faviconUrl": "https://google.com/favicon.ico"
+    },
+    {
+      "id": "2",
+      "url": "https://twitter.com",
+      "title": "Something not so fresh!",
+      "content": "There is a way of doing it through javascript and the developer framework as shown below. ... $('head').append('<link id=\"dynamic-favicon\" rel=",
+      "updatedAt": 1663472110231,
+      "faviconUrl": "https://twitter.com/favicon.ico"
+    },
+    {
+      "id": "6",
+      "url": "https://studio.com",
+      "title": "Sampling music learned on Studio.com and hoping one day to be able to make music like this!",
+      "content": "jfhk dsd asdopamlsdasd dsakdda\njakd adas\ndajkd ada\nsdka dsdcs",
+      "updatedAt": 1663385908000,
+      "faviconUrl": "https://studio.com/favicon.ico"
+    },
+    {
+      "id": "3",
+      "url": "https://medium.com",
+      "title": "Bandits!",
+      "content": "Notice how the v-for value matches the function signature of the forEach callback.\nIn fact, you can use destructuring on the v-for item alias similar to destructuring function arguments.",
+      "updatedAt": 1663472330231,
+      "faviconUrl": "https://medium.com/favicon.ico"
+    },
+    {
+      "id": "4",
+      "url": "https://vuejs.org",
+      "title": "Arcitecture Notes",
+      "content": "jfhk dsd asdopamlsdasd dsakdda\njakd adas\ndajkd ada\nsdka dsdcs",
+      "updatedAt": 1663272330231,
+      "faviconUrl": "https://architecturenotes.co/content/images/size/w256h256/2022/05/an-banner-logo-60x60-transparent-2.png"
+    },
+    {
+      "id": "5",
+      "url": "https://vuejs.org",
+      "title": "Notes on things I saw fresh!",
+      "content": "# Bolaji\n\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!",
+      "updatedAt": 1663272330231,
+      "faviconUrl": "https://use-the-index-luke.com/static/favicon-180.AWv8s1fk.png"
+    },
+    {
+      "id": "50",
+      "url": "https://anniemusic.app",
+      "title": "Notes on things I saw fresh!",
+      "content": "# Chapter One\n\n[link](https://jugmac00.github.io/blog/how-to-run-a-dockerized-service-via-systemd/)\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**\n\n\n\n\n# Chapter One\n\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**",
+      "updatedAt": 1663272330231,
+      "faviconUrl": "https://anniemusic.app/static/favicon.ico"
+    },
+    {
+      "id": "900",
+      "url": "https://anniemusic.app",
+      "title": "Notes on things I saw fresh!",
+      "content": "# Chapter One\n\n[link](https://jugmac00.github.io/blog/how-to-run-a-dockerized-service-via-systemd/)\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**\n\n\n\n\n# Chapter One\n\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**",
+      "updatedAt": 1663272330231,
+      "faviconUrl": "https://anniemusic.app/static/favicon.ico"
+    },
+    {
+      "id": "90",
+      "url": "https://anniemusic.app",
+      "title": "Notes on things I saw fresh!",
+      "content": "# Chapter One\n\n[link](https://jugmac00.github.io/blog/how-to-run-a-dockerized-service-via-systemd/)\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**\n\n\n\n\n# Chapter One\n\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**",
+      "updatedAt": 1663272330231,
+      "faviconUrl": "https://anniemusic.app/static/favicon.ico"
+    },
+    {
+      "id": "60",
+      "url": "https://anniemusic.app",
+      "title": "Notes on things I saw fresh!",
+      "content": "# Chapter One\n\n[link](https://jugmac00.github.io/blog/how-to-run-a-dockerized-service-via-systemd/)\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**\n\n\n\n\n# Chapter One\n\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**",
+      "updatedAt": 1663272330231,
+      "faviconUrl": "https://anniemusic.app/static/favicon.ico"
+    },
+    {
+      "id": "5905",
+      "url": "https://anniemusic.app",
+      "title": "Notes on things I saw fresh!",
+      "content": "# Chapter One\n\n[link](https://jugmac00.github.io/blog/how-to-run-a-dockerized-service-via-systemd/)\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**\n\n\n\n\n# Chapter One\n\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**",
+      "updatedAt": 1663272330231,
+      "faviconUrl": "https://anniemusic.app/static/favicon.ico"
+    },
+    {
+      "id": "5460",
+      "url": "https://anniemusic.app",
+      "title": "Notes on things I saw fresh!",
+      "content": "# Chapter One\n\n[link](https://jugmac00.github.io/blog/how-to-run-a-dockerized-service-via-systemd/)\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**\n\n\n\n\n# Chapter One\n\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**",
+      "updatedAt": 1663272330231,
+      "faviconUrl": "https://anniemusic.app/static/favicon.ico"
+    },
+    {
+      "id": "558",
+      "url": "https://anniemusic.app",
+      "title": "Notes on things I saw fresh!",
+      "content": "# Chapter One\n\n[link](https://jugmac00.github.io/blog/how-to-run-a-dockerized-service-via-systemd/)\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**\n\n\n\n\n# Chapter One\n\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**",
+      "updatedAt": 1663272330231,
+      "faviconUrl": "https://anniemusic.app/static/favicon.ico"
+    },
+    {
+      "id": "60",
+      "url": "https://anniemusic.app",
+      "title": "Notes on things I saw fresh!",
+      "content": "# Chapter One\n\n[link](https://jugmac00.github.io/blog/how-to-run-a-dockerized-service-via-systemd/)\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**\n\n\n\n\n# Chapter One\n\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**",
+      "updatedAt": 1663272330231,
+      "faviconUrl": "https://anniemusic.app/static/favicon.ico"
+    },
+    {
+      "id": "556",
+      "url": "https://anniemusic.app",
+      "title": "Notes on things I saw fresh!",
+      "content": "# Chapter One\n\n[link](https://jugmac00.github.io/blog/how-to-run-a-dockerized-service-via-systemd/)\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**\n\n\n\n\n# Chapter One\n\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**",
+      "updatedAt": 1663272330231,
+      "faviconUrl": "https://anniemusic.app/static/favicon.ico"
+    },
+    {
+      "id": "640",
+      "url": "https://anniemusic.app",
+      "title": "Notes on things I saw fresh!",
+      "content": "# Chapter One\n\n[link](https://jugmac00.github.io/blog/how-to-run-a-dockerized-service-via-systemd/)\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**\n\n\n\n\n# Chapter One\n\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**",
+      "updatedAt": 1663272330231,
+      "faviconUrl": "https://anniemusic.app/static/favicon.ico"
+    },
+    {
+      "id": "555",
+      "url": "https://anniemusic.app",
+      "title": "Notes on things I saw fresh!",
+      "content": "# Chapter One\n\n[link](https://jugmac00.github.io/blog/how-to-run-a-dockerized-service-via-systemd/)\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**\n\n\n\n\n# Chapter One\n\nSometimes I feel like something is happening.\n\nI can't explain it. Tbh!\n\n```\nconst x = 6 + 6\n```\n\n## Interlude\n\n**The End**",
+      "updatedAt": 1663272330231,
+      "faviconUrl": "https://anniemusic.app/static/favicon.ico"
+    }
   ]
 }
